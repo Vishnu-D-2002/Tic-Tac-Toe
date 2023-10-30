@@ -1,0 +1,31 @@
+button{
+    line-height: 60px;
+    height: 80px;
+    width: 80px;
+    padding: 0px;
+    margin-top: 0px;
+    border: 2px solid black;
+    float: left;
+    font-size: 27px;
+    font-weight: bolder;
+    background-color: rgb(152, 250, 242);
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35vh;
+}
+#status{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+body{
+    background-color: rgb(200, 236, 207);
+}
+/* .row::after {
+    clear: both;
+    content: '';
+    display: table;
+} */
